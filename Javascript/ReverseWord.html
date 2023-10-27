@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Word</title>
+</head>
+<body>
+    <script>
+        let str = prompt("Enter a Sentence");  // get string from user
+        let words = str.split(" "); // split the given by space
+        let n = words.length;   // get length of splitted words
+        var word;
+        let n1;
+        for(let i=0;i<n;i++){
+            word= words[i];
+            n1 = word.length;
+            for(let j=0;j<n1;j++)
+            {  
+                console.log(word[n1-j-1]);
+                document.write(word[n1-j-1]);
+            }
+            console.log(" ");
+            document.write(" ");
+        }
+ 
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+.container form{
+    background-color: goldenrod;
+    width: 700px;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px black;
+    
+}
+
+.container form table td{
+    padding: 10px;
+    row-gap: 10px;
+}
+.tables label,input,select,button{
+    font-size: 1.4em;
+    padding: 5px;
+}
+.tables label{
+    font-weight:500;
+}
+.tables input,select,button{
+    border-radius: 10px;
+    border: none;
+}
+.tables input[type=radio]{
+    width: 20px;
+    height: 20px
+}
+.tables button:hover{
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
